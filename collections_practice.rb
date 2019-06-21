@@ -68,8 +68,9 @@ def count_elements(array)
         new_hash[key] = value
         do_array_me << new_hash
       else
-        new_hash[:count] =
-#      binding.pry
+        binding.pry
+        new_hash[:count] = new_hash[:count] + 1
+
       end
     end
   end
