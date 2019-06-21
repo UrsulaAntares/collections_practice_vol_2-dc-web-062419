@@ -77,11 +77,12 @@ end
 def merge_data(weigh, way)
   family_values = []
 #  weigh[0][:first_name] == person
-  way[0][weigh[0][:first_name]].each do |key, value|
-    
-#    binding.pry
-  end
+  if 
+    way[0][weigh[0][:first_name]].each do |key, value|
+  #    binding.pry
+    end
   weigh
+  #expect [{:awesomeness=>10, :first_name=>"blake", :height=>"74", :last_name=>"johnson", :motto=>"Have a koala...:first_name=>"ashley", :height=>60, :last_name=>"dubs", :motto=>"I dub thee, 'Lady Brett Ashley'."}]
 end
 
 
