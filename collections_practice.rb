@@ -135,7 +135,7 @@ def organize_schools(array)
     end
   end
   
-  binding.pry
+ # binding.pry
 end
 
 
