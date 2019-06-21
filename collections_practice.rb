@@ -112,11 +112,11 @@ family_values = []
 end
 
 def find_cool(argument)
-  who = ""
+  who = []
   argument.each do |hash|
     hash.each do |key, value|
        if value == "cool" 
-         return hash
+         who << hash
        end
  #     binding.pry
     end
