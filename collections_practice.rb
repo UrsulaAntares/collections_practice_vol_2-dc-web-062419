@@ -134,6 +134,7 @@ def organize_schools(array)
       if list_o_places.include?(location) != true
         list_o_places << location
         new_hash[location] = []
+        new_hash[location] << school
       end
  #     list_o_places.each do |place_to_list|
 #        new_hash[place_to_list] = []
