@@ -112,5 +112,16 @@ family_values = []
 end
 
 def find_cool(argument)
+  who = ""
+  argument.each do ||
+    
+      binding.pry
+  end
   binding.pry
+  who
 end
+
+
+
+[{:name=>"ashley", :temperature=>"sort of cool"},
+ {:name=>"blake", :temperature=>"cool"}]
