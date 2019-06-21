@@ -86,8 +86,11 @@ def merge_data(weigh, way)
             if person == weigh[i][:first_name]
               weigh[i][key] = value
   #            binding.pry
+                i+=1
+              else
+                i+=1
             end
-                      i+=1
+
           end
 
         end
