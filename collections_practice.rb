@@ -118,7 +118,7 @@ def find_cool(argument)
        if value == "cool" 
          who = hash[:name]
        end
-      binding.pry
+ #     binding.pry
     end
   end
   binding.pry
