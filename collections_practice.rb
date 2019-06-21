@@ -126,6 +126,7 @@ def find_cool(argument)
 end
 
 
+def organize_schools
+  binding.pry
+end
 
-[{:name=>"ashley", :temperature=>"sort of cool"},
- {:name=>"blake", :temperature=>"cool"}]
