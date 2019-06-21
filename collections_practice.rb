@@ -77,25 +77,6 @@ end
 def merge_data(weigh, way)
   family_values = []
 #  weigh[0][:first_name] == person
-#    way.each do |headed_data|
-#      headed_data.each do |person, stats|
-#        family_values << person
-#        stats.each do |key, value|
-#   #       binding.pry
-#          family_values.each do |person|  
-#            i=0
-#            while i < way.length
-#              if person == weigh[i][:first_name]
-#                weigh[i][key] = value
-#                binding.pry
-#             end
-#              i+=1
-#            end
-#          end
-#        end
-#      end
-#   end
-##############
 family_values = []
   way.each do |named_hash|
     named_hash.each do | name, data |
@@ -108,7 +89,7 @@ family_values = []
             weigh[i][key]=value
           end
           i+=1
-         binding.pry
+#         binding.pry
         end
       end
     end
