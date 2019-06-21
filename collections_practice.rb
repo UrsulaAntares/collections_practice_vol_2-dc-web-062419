@@ -96,8 +96,10 @@ def merge_data(weigh, way)
 #      end
 #   end
 ##############
+family_values = []
   way.each do |named_hash|
     named_hash.each do | name, data |
+    family_values << name  
       data.each do | key, value |
         i=0
         while i < way.length
