@@ -61,9 +61,10 @@ def count_elements(array)
     new_hash = {}
     hash.each do | key, value |
       binding.pry
-      new_hash[value] = 1
+      new_hash[count] = 1
+      new_hash[key] = value
       do_array_me << new_hash
-#      binding.pry
+      binding.pry
     end
   end
 # I need to return an array of hashes, in each hash anotehr level of hashes; the first sub-hash in each hash is the count of the instances of the second sub-hash's value, 
