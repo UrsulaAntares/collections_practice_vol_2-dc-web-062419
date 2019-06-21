@@ -78,6 +78,7 @@ def merge_data(weigh, way)
   family_values = []
 #  weigh[0][:first_name] == person
     way[0][weigh[0][:first_name]].each do |key, value|
+      binding.pry
       if way[0][key] == weigh[0][:first_name]
         weigh[0][key] = value
         binding.pry
