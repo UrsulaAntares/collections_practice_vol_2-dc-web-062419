@@ -111,4 +111,6 @@ family_values = []
   weigh
 end
 
-
+def find_cool(argument)
+  pry
+end
