@@ -131,12 +131,23 @@ def organize_schools(array)
   list_o_places = []
   array.each do |school, location_data|
     location_data.each do | key, location |
-      list_o_places << location
+      if list_o_places.include?(location) != true
+        list_o_places << location
+      end
+      list_o_places.each do |place_to_list|
+        new_hash[place_to_list] = []
+      end
     end
   end
   
  # binding.pry
 end
+
+Expecting
+{"Chicago"=>["dev boot camp chicago"], 
+"NYC"=>["flatiron school bk", "flatiron school", "general assembly"], 
+"SF"=>["dev boot camp", "Hack Reactor"]}
+
 
 
 {"flatiron school bk"=>{:location=>"NYC"},
