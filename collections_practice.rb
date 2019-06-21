@@ -76,7 +76,7 @@ end
 
 def merge_data(weigh, way)
   family_values = []
-  weigh[0][:first_name] == person
+#  weigh[0][:first_name] == person
   binding.pry
 end
 
