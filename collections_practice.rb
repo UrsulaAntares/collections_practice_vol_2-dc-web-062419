@@ -81,7 +81,7 @@ def merge_data(weigh, way)
     
 #    binding.pry
   end
-  way
+  weigh
 end
 
 
