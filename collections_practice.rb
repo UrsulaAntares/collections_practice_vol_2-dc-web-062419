@@ -79,8 +79,9 @@ def merge_data(weigh, way)
 #  weigh[0][:first_name] == person
   way[0][weigh[0][:first_name]].each do |key, value|
     
-    binding.pry
+#    binding.pry
   end
+  way
 end
 
 
