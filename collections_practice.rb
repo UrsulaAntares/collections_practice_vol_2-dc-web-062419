@@ -136,9 +136,9 @@ def organize_schools(array)
  #       new_hash[location] = []
  #       new_hash[location] << school
       end
- #     list_o_places.each do |place_to_list|
+      list_o_places.each do |place_to_list|
         new_hash[place_to_list] = []
-#      end
+      end
       
     end
   end
