@@ -85,6 +85,7 @@ def merge_data(weigh, way)
           binding.pry
         end
       end
+    end
   weigh
   #expect [{:awesomeness=>10, :first_name=>"blake", :height=>"74", :last_name=>"johnson", :motto=>"Have a koala...:first_name=>"ashley", :height=>60, :last_name=>"dubs", :motto=>"I dub thee, 'Lady Brett Ashley'."}]
 end
