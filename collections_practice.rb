@@ -71,7 +71,7 @@ def count_elements(array)
  #       binding.pry
         i=0
         while i < do_array_me.length + 1
-          if do_array_me[i][:name] = value
+          if do_array_me[i][:name] == value
         #    do_array_me[0][:count] + 1
           end
           i+=1
