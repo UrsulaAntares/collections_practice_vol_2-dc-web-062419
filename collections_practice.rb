@@ -139,7 +139,7 @@ def organize_schools(array)
       end
     end
   end
-  
+  list_o_places
  # binding.pry
 end
 
