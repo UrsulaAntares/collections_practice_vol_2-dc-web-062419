@@ -99,7 +99,13 @@ def merge_data(weigh, way)
   way.each do |named_hash|
     named_hash.each do | name, data |
       data.each do | key, value |
-        binding.pry
+        i=0
+        while i < way.length
+          if weigh[i][:first_name] == name
+            binding.pry
+            weigh[i][key]=value
+          end
+        i+=1
       end
     end
   end
