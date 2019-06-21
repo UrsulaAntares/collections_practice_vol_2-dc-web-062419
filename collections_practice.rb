@@ -108,7 +108,7 @@ family_values = []
             weigh[i][key]=value
           end
           i+=1
-          binding.pry
+#          binding.pry
         end
       end
     end
