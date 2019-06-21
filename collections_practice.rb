@@ -56,14 +56,19 @@ end
 
 def count_elements(array)
   array
+  family_values = []
   do_array_me = []
   array.each do | hash |
     new_hash = {}
     hash.each do | key, value |
- #     binding.pry
-      new_hash[:count] = 1
-      new_hash[key] = value
-      do_array_me << new_hash
+ #    binding.pry
+      if family_values.include?(value) != true
+        family_values << value
+        new_hash[:count] = 1
+        new_hash[key] = value
+        do_array_me << new_hash
+      else
+        new_hash[:count] +=1
 #      binding.pry
     end
   end
