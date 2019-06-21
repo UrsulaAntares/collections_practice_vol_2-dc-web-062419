@@ -70,3 +70,8 @@ def count_elements(array)
   do_array_me
 #  binding.pry
 end
+
+
+
+
+def c
