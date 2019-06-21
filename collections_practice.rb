@@ -69,7 +69,7 @@ def count_elements(array)
         do_array_me << new_hash
       else
         binding.pry
-        new_hash[:count] = new_hash[:count] + 1
+        do_array_me[0][:count] +1
 
       end
     end
