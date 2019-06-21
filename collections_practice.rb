@@ -102,7 +102,7 @@ def merge_data(weigh, way)
         i=0
         while i < way.length
           if weigh[i][:first_name] == name
-            binding.pry
+  #          binding.pry
             weigh[i][key]=value
           end
         i+=1
