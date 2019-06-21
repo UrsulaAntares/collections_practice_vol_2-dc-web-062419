@@ -105,7 +105,8 @@ def merge_data(weigh, way)
   #          binding.pry
             weigh[i][key]=value
           end
-        i+=1
+          i+=1
+        end
       end
     end
   end
