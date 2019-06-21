@@ -80,7 +80,8 @@ def merge_data(weigh, way)
     way[0][weigh[0][:first_name]].each do |key, value|
       if way[0][key] == weigh[0][:first_name]
         weigh[0][key] = value
-      binding.pry
+        binding.pry
+      end
     end
   weigh
   #expect [{:awesomeness=>10, :first_name=>"blake", :height=>"74", :last_name=>"johnson", :motto=>"Have a koala...:first_name=>"ashley", :height=>60, :last_name=>"dubs", :motto=>"I dub thee, 'Lady Brett Ashley'."}]
