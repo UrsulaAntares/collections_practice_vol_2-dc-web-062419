@@ -61,7 +61,7 @@ def count_elements(array)
     new_hash = {}
     hash.each do | key, value |
  #     binding.pry
-      new_hash[count] = 1
+      new_hash[:count] = 1
       new_hash[key] = value
       do_array_me << new_hash
 #      binding.pry
