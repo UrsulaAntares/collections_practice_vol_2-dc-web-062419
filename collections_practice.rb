@@ -91,6 +91,7 @@ def merge_data(weigh, way)
               end
               i+=1
             end
+          end
         end
       end
     end
