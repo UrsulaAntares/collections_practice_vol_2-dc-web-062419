@@ -70,6 +70,7 @@ def count_elements(array)
       else
         new_hash[:count] +=1
 #      binding.pry
+      end
     end
   end
 # I need to return an array of hashes, in each hash anotehr level of hashes; the first sub-hash in each hash is the count of the instances of the second sub-hash's value, 
