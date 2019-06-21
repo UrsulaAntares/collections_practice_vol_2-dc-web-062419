@@ -74,4 +74,7 @@ end
 
 
 
-def c
+def merge_data(weigh, way)
+  family_values = []
+  binding.pry
+end
