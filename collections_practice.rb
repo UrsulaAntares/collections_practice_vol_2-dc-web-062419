@@ -102,7 +102,7 @@ family_values = []
     family_values << name  
       data.each do | key, value |
         i=0
-        while i < way.length
+        while i < way.length + 1
           if weigh[i][:first_name] == name
   #          binding.pry
             weigh[i][key]=value
