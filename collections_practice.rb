@@ -116,7 +116,7 @@ def find_cool(argument)
   argument.each do |hash|
     hash.each do |key, value|
        if value == "cool" 
-         who = hash[:name]
+         return hash
        end
  #     binding.pry
     end
