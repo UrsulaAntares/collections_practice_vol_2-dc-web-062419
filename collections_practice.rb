@@ -78,3 +78,9 @@ def merge_data(weigh, way)
   family_values = []
   binding.pry
 end
+
+
+[{:first_name=>"blake", :motto=>"Have a koala-ty day!"},
+ {:first_name=>"ashley", :motto=>"I dub thee, 'Lady Brett Ashley'."}]
+ 
+ 
