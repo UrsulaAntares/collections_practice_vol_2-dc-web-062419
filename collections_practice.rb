@@ -143,7 +143,7 @@ def organize_schools(array)
  # binding.pry
 end
 
-Expecting
+
 {"Chicago"=>["dev boot camp chicago"], 
 "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], 
 "SF"=>["dev boot camp", "Hack Reactor"]}
