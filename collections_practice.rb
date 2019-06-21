@@ -131,7 +131,7 @@ def organize_schools(array)
   list_o_places = []
   array.each do |school, location_data|
     location_data.each do | key, location |
-      
+      list_o_places << location
     end
   end
   
