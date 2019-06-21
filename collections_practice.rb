@@ -80,7 +80,7 @@ def merge_data(weigh, way)
     way.each do |headed_data|
       headed_data.each do |person, stats|
         stats.each do |key, value|
-          binding.pry
+   #       binding.pry
           i=0
           while i < way.length
             if person == weigh[i][:first_name]
