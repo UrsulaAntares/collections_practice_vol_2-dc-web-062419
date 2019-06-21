@@ -127,6 +127,14 @@ end
 
 
 def organize_schools(array)
+  new_hash = {}
+  list_o_places = []
+  array.each do |school, location_data|
+    location_data.each do | key, location |
+      
+    end
+  end
+  
   binding.pry
 end
 
