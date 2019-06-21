@@ -121,7 +121,7 @@ def find_cool(argument)
  #     binding.pry
     end
   end
-  binding.pry
+#  binding.pry
   who
 end
 
